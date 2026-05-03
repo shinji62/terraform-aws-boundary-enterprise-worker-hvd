@@ -6,7 +6,7 @@ Terraform module aligned with HashiCorp Validated Designs (HVD) to deploy Bounda
 
 ### General
 
-- Terraform CLI `>= 1.9` installed on workstations.
+- Terraform CLI `>= 1.13` installed on workstations.
 - `Git` CLI and Visual Studio Code editor installed on workstations are strongly recommended.
 - AWS account that Boundary will be hosted in with permissions to provision these [resources](#resources) via Terraform CLI.
 - (Optional) AWS S3 bucket for [S3 Remote State backend](https://developer.hashicorp.com/terraform/language/settings/backends/s3) that will solely be used to stand up the Boundary infrastructure via Terraform CLI (Community Edition).
@@ -199,7 +199,7 @@ Please note that there is no official Service Level Agreement (SLA) for support 
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.9 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.13 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 5.51.0 |
 
 ## Providers
